@@ -1,0 +1,15 @@
+minio:
+  endpoint: http://8.222.158.188
+  port: 9000
+  accessKey: rYexSPIeR1hv4JrRk40l
+  secretKey: l3an5mHv5lAkpAMK7v0r6jC25WjYVZ4fS7N4YhxD
+  bucketName: public
+  secure: false
+spring:
+  #设置文件上传大小限制
+  servlet:
+    multipart:
+      max-file-size: 100MB
+      max-request-size: 150MB
+server:
+  port: 6060
